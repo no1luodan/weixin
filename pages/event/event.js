@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    info: app.globalData.info,
     motto: 'Hello World ld',
     userInfo: {},
     hasUserInfo: false,

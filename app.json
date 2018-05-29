@@ -1,12 +1,43 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/event/event",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "ld",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "no1luodan.top",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#ededed"
+  },
+  "tabBar":{
+        "color":"#01609f",
+        "selectedColor":"#0d3f61",
+        "borderStyle":"#01609f",
+    "list":[
+      {
+        "text":"首页",
+        "pagePath":"pages/index/index",
+        "iconPath": "assets/icon/home.png",
+        "selectedIconPath": "assets/icon/home-active.png"
+ 
+   
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/event/event",
+        "iconPath": "assets/icon/event.png",
+        "selectedIconPath": "assets/icon/event-active.png"
+      },
+      {
+        "text": "日志",
+        "pagePath": "pages/logs/logs",
+        "iconPath": "assets/icon/event.png",
+        "selectedIconPath": "assets/icon/event-active.png"
+      }
+    ]
+
   }
 }

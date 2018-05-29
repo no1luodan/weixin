@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class='container center vertical'>
 <view>
-<text class='header'>{{info}}</text>
+<text class='header'>event</text>
 </view>
 
 </view>
